@@ -3,9 +3,30 @@
 }
 
 .hw {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-direction: column;
+
 
 }
 
 .hwTitle {
+    width: 165px;
+    height: 27px;
+    margin-left: 265px;
+    margin-bottom: 10px;
+    color: #000000;
+    margin-top: 107px;
+    font-family: 'Montserrat';
+    font-style: normal;
 
+}
+
+.messageClass {
+}
+
+.hr {
+    background-color: gray;
+    margin-bottom: 10px;
 }
