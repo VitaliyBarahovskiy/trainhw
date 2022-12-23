@@ -40,7 +40,7 @@ function Affair(props: AffairPropsType) {
                 onClick={()=>deleteCallback(props.affair._id)}
             >
                 {/*текст кнопки могут изменить студенты*/}
-
+                x
                 {/**/}
             </button>
         </div>
