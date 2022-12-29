@@ -1,16 +1,21 @@
 .button {
+    border-radius: 50%;
 }
 
 .disabled {
+    background-color: gray;
 }
 
 .secondary {
+    background-color: blue;
 }
 
 .default {
+    border-radius: 10px;
 }
 
 .red {
+    background-color: red;
 }
 
 .default:hover {
