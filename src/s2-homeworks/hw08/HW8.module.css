@@ -1,23 +1,65 @@
 .item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /*display: flex;*/
+    align-items: center;
+
+    color: #000000;
 }
 
 .item:last-of-type {
 }
 
 .users {
+    width: 365px;
+
+
 }
 
 .buttonsContainer {
+
+
+
 }
 
 .container {
+    width: 606px;
+    height: 150px;
+
+
 }
 
 .thead {
+
+    background: #E5E5E5;
 }
 
 .nameCol {
+    width: 206px;
+    height: 16px;
+    left: 870px;
+    top: 300px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+
+
 }
 
 .ageCol {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
 }
