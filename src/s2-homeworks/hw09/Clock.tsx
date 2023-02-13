@@ -39,7 +39,8 @@ function Clock() {
     // день недели на английском, месяц на английском (https://learn.javascript.ru/intl#intl-datetimeformat)
     const stringDay = date.toLocaleDateString("en-US", {weekday:'long'}) || <br/> // пишут студенты
     const stringMonth = date.toLocaleDateString("en-US", {month: 'long'}) || <br/> // пишут студенты
-
+    console.log(!timerId)
+    console.log(!!timerId)
     return (
         <div className={s.clock}>
             <div
@@ -83,8 +84,6 @@ function Clock() {
                     onClick={stop}
                 >
                     stop
-
-
 
                 </SuperButton>
             </div>
