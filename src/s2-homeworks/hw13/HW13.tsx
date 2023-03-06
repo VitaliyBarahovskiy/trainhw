@@ -38,6 +38,7 @@ const HW13 = () => {
                 setImage(success200)
                 // дописать
 
+
             })
             .catch((e) => {
                 // дописать
