@@ -40,7 +40,6 @@ const HW13 = () => {
                 setImage(success200)
                 setText(res.data.errorText)
                 setInfo(res.data.info)
-                setDisable(false)
 
                 // дописать
 
@@ -53,21 +52,19 @@ const HW13 = () => {
                     setImage(error400)
                     setText(e.response.data.errorText)
                     setInfo(e.response.data.info)
-                    setDisable(false)
                 } else if (e.response.status === 500) {
                     setCode('Код 500!')
                     setImage(error500)
                     setText(e.response.data.errorText)
                     setInfo(e.response.data.info)
-                    setDisable(false)
                 } else if (e.response.status ===  0) {
                     setCode('error')
                     setImage(errorUnknown)
                     setText(e.message)
                     setInfo(e.name)
-                    setDisable(false)
                 }
             })
+            .finally(()=> {setDisable(false)})
     }
 
     return (
