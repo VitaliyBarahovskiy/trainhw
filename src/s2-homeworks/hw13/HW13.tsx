@@ -58,7 +58,7 @@ const HW13 = () => {
                     setText(e.response.data.errorText)
                     setInfo(e.response.data.info)
                 } else if (e.response.status ===  0) {
-                    setCode('error')
+                    setCode('Error!')
                     setImage(errorUnknown)
                     setText(e.message)
                     setInfo(e.name)
